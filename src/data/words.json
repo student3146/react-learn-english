@@ -1,0 +1,55 @@
+{
+    "words": [
+      {
+        "id": 1,
+        "word": "dog",
+        "translation": "собака"
+      },
+      {
+        "id": 2,
+        "word": "cat",
+        "translation": "кіт"
+      },
+      {
+        "id": 3,
+        "word": "house",
+        "translation": "будинок"
+      },
+      {
+        "id": 4,
+        "word": "car",
+        "translation": "автомобіль"
+      },
+      {
+        "id": 5,
+        "word": "book",
+        "translation": "книга"
+      },
+      {
+        "id": 6,
+        "word": "computer",
+        "translation": "комп'ютер"
+      },
+      {
+        "id": 7,
+        "word": "phone",
+        "translation": "телефон"
+      },
+      {
+        "id": 8,
+        "word": "tree",
+        "translation": "дерево"
+      },
+      {
+        "id": 9,
+        "word": "flower",
+        "translation": "квітка"
+      },
+      {
+        "id": 10,
+        "word": "sky",
+        "translation": "небо"
+      }
+    ]
+
+}
