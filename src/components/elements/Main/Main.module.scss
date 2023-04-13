@@ -1,18 +1,25 @@
 .main {
-    padding-top: 50px;
-    padding-bottom: 50px;
-    background-color: #858585;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    border-radius: 20px;
+    padding: 40px;
+    box-sizing: border-box;
+    background: #ecf0f3;
+    box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px white;
 
     .title {
-        font-size: 24px;
+        font-weight: 900;
+        font-size: 2rem;
         margin-left: 50px;
+        color: #1DA1F2;
     }
 
     .list {
         list-style: none;
-        font-weight: 500;
-        font-size: 19px;
-        margin-left: 50px;
-        color: rgb(45, 37, 37);
+        font-weight: 700;
+        font-size: 1.8rem;
+        color: #1DA1F2;
     }
 }

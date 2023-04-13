@@ -49,7 +49,7 @@ function TestForm() {
           Ви набрали {score} балів з 10 ({(score * 10).toFixed()}%).
         </p>
         <button onClick={handleRepeatClick}>Повторити тест</button>
-        <button><Link className={styles.link} to='/'>Exit</Link></button>
+        <button><Link to='/'>Exit</Link></button>
       </div>
     );
   }
@@ -57,9 +57,10 @@ function TestForm() {
   return (
     <div className={styles.test}>
       <h2>Тестування: {currentWord.word}</h2>
-      <ul className={styles.word}>
+      <ul className={styles.words}>
         {currentWord.translations.map((translation, index) => (
           <li
+            className={styles.word}
             key={index}
             onClick={() =>
               handleAnswerClick(translation === currentWord.translation)

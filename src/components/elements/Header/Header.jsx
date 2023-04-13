@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import styles from './Header.module.scss';
+import logo from '../../../img/dictionary.png';
 
 
 const Header = ({ words }) => {
@@ -8,6 +9,9 @@ const Header = ({ words }) => {
   return (
     <header className={styles.header}>
       <nav className={styles.nav}>
+        <div className={styles.logo}>
+          <img src={logo} alt="logo" />
+        </div>
         <ul className={styles.list}>
           <li>
             <Link className={styles.link} to='/main'>Add Word</Link>
@@ -17,10 +21,10 @@ const Header = ({ words }) => {
           </li>
         </ul>
       </nav>
-      <h1>Words List:</h1>
-      <ul>
+      <h1>Words List</h1>
+      <ul className={styles.words}>
         {words.words.map((word, index) => (
-          <li key={index}>{word.word} - {word.translation}</li>
+          <li className={styles.word} key={index}>Слово: {word.word} Переклад: {word.translation}</li>
         ))}
       </ul>
     </header>

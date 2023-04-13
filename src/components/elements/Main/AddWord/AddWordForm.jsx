@@ -43,7 +43,7 @@ const AddWordForm = ({ onAddWord }) => {
       </div>
       <div className={styles.buttons}>
         <button className={styles.btn} type="submit">Add word</button>
-        <button className={styles.btn}><Link className={styles.link} to='/'>Exit</Link></button>
+        <button className={styles.btn}><Link to='/'>Exit</Link></button>
       </div>
     </form>
   );
