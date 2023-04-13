@@ -70,6 +70,7 @@ function TestForm() {
           </li>
         ))}
       </ul>
+      <button><Link to='/'>Exit</Link></button>
     </div>
   );
 }
