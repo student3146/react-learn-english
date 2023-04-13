@@ -59,15 +59,17 @@
 
 .words {
     display: flex;
-    justify-content: space-between;
-    align-items: baseline;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 20px;
-    
+    max-width: 100%;    
 }
 
 .word {
-    width: 100px;
-    height: 100px;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    height: auto;
     padding: 10px;
     color: #22356F;
     background: white;

@@ -24,8 +24,8 @@ const Header = ({ words }) => {
       <h1>Words List</h1>
       <ul className={styles.words}>
         {words.words.map((word, index) => (
-          <li className={styles.word} key={index}>Слово: {word.word} Переклад: {word.translation}</li>
-        ))}
+          <li className={styles.word} key={index}>Слово: {word.word} - Переклад: {word.translation}</li>
+        ))} 
       </ul>
     </header>
   );
